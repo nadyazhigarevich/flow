@@ -1,0 +1,39 @@
+.feedback {
+    background-color: #D9D9D9;
+    padding: 2.188rem 8.563rem;
+    padding-bottom: 7.125rem;
+
+    h1 {
+        margin-bottom: 2.875rem;
+        font-size: 4rem;
+        font-weight: lighter;
+    }
+
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        gap: 3.875rem;
+    }
+
+    &__item {
+        span {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0.438rem;
+
+            
+        }
+
+        &-stars {
+            display: flex;
+            gap: 0.438rem;
+            margin-bottom: 1.5rem;
+        }
+
+        &-content {
+            width: 21.5rem;
+            font-size: 1rem;
+        }
+    }
+}

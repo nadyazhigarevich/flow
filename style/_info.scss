@@ -1,0 +1,31 @@
+.info {
+    background-color: #D9D9D9;
+    padding: 5.125rem 0;
+    text-align: center;
+
+    &__blocks {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        gap: 8.438rem;
+        margin-bottom: 3.75rem;
+    }
+
+    &__block {
+        text-align: center;
+        width: 17.375rem;
+
+        h2 {
+            font-size: 1.5rem;
+            text-transform: uppercase;
+        }
+
+        p {
+            font-size: 0.938rem;
+        }
+
+        img, h2 {
+            margin-bottom: 1.688rem;
+        }
+    }
+}

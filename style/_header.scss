@@ -1,0 +1,34 @@
+.header {
+    width: 100%;
+    padding: 0.625rem 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #000;
+
+    &__burger {
+        display: none;
+    }
+
+    &__right,
+    &__left {
+        display: flex;
+        align-items: center;
+    }
+
+    &__left {
+        font-size: 0.938rem;
+        gap: 0.938rem;
+    }
+
+    &__right {
+        gap: 2.813rem;
+
+        nav {
+            p{
+                font-size: 0.938rem;
+                text-transform: uppercase;
+            }   
+        }
+    }
+}

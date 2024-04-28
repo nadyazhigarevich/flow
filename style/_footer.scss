@@ -1,0 +1,42 @@
+.footer {
+    background: #000;
+    color: #fff;
+    padding: 3.25rem 3.625rem;
+
+    &__top {
+        display: flex;
+        gap: 7.5rem;
+        align-items: flex-start;
+
+        &-block {
+            h1 {
+                font-weight:900;
+                text-transform: uppercase;
+                font-size: 2.5rem;
+            }
+
+            h2 {
+                font-size: 1rem;
+            }
+
+            &-navs {
+                display: flex;
+                font-size: 0.75rem;
+                gap: 1.563rem;
+                margin-top: 1.75rem;
+                a {
+                    color: #fff;
+                }
+
+                img {
+                    width: 1.313rem;
+                }
+            }
+        }
+    }
+
+    p{
+        margin-top: 6.375rem;
+        font-size: 0.625rem;
+    }
+}

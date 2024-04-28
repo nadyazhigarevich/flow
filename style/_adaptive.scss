@@ -1,0 +1,571 @@
+@media (max-width: 1240px) {
+    .banner {
+
+        padding-bottom: 7.5rem;
+
+        &__title {
+
+            font-size: 5rem;
+            margin: 2.5rem 0;
+        }
+
+        &__content {
+            &-left {
+
+                h2 {
+                    font-size: 3rem;
+                    width: 30rem;
+                }
+            }
+
+            img {
+                width: 17.75rem;
+            }
+        }
+    }
+
+    .info {
+        padding: 3rem 0;
+
+        &__blocks {
+            gap: 5rem;
+        }
+
+        &__block {
+            width: 15rem;
+
+            h2 {
+                font-size: 1rem;
+            }
+
+            p {
+                font-size: 0.75rem;
+            }
+        }
+    }
+
+    .content {
+        padding: 4.5rem 6.563rem;
+        padding-bottom: 5.313rem;
+
+        &__gallery {
+
+            &-item {
+
+                width: 30rem;
+
+                img {
+                    width: 80%;
+                }
+
+                span {
+                    bottom: 3rem;
+                    font-size: 3rem;
+                }
+            }
+        }
+
+        &__bottom {
+            margin-top: 5rem;
+
+            &-left {
+                h1 {
+                    font-size: 4rem;
+                }
+
+                p {
+                    font-size: 1rem;
+                }
+            }
+
+            &-right {
+                li {
+
+                    h1 {
+                        font-size: 2rem;
+                    }
+
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+
+    .feedback {
+        width: 100%;
+
+        h1 {
+            font-size: 2.5rem;
+        }
+
+        &__items {
+            gap: 2.5rem;
+        }
+
+        &__item {
+            &-content {
+                width: 15.5rem;
+            }
+
+            &-stars {
+                gap: .2rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 950px) {
+
+    button {
+        width: 10rem;
+    }
+
+    .banner {
+
+        padding-bottom: 5rem;
+
+        &__title {
+            font-size: 3.5rem;
+            margin: 2rem 0;
+        }
+
+        &__content {
+            &-left {
+
+                h2 {
+                    font-size: 2rem;
+                    width: 25rem;
+                }
+            }
+
+            img {
+                width: 15rem;
+            }
+        }
+    }
+
+    .info {
+        padding: 2.5rem 0;
+
+        &__blocks {
+            gap: 2.25rem;
+        }
+
+        &__block {
+            width: 13rem;
+
+            h2 {
+                font-size: 1rem;
+            }
+
+            p {
+                font-size: 0.75rem;
+            }
+        }
+    }
+
+    .content {
+        padding: 4.5rem 6.563rem;
+        padding-bottom: 5.313rem;
+
+        &__gallery {
+
+            &-item {
+
+                width: 30rem;
+
+                img {
+                    width: 80%;
+                }
+
+                span {
+                    bottom: 3rem;
+                    font-size: 3rem;
+                }
+            }
+        }
+
+        &__bottom {
+            margin-top: 3.5rem;
+
+            &-left {
+                h1 {
+                    font-size: 2.5rem;
+                    margin-bottom: 2rem;
+                }
+
+                p {
+                    font-size: 1rem;
+                }
+            }
+
+            &-right {
+                li {
+
+                    h1 {
+                        font-size: 2rem;
+                    }
+
+                    font-size: 1rem;
+                }
+            }
+        }
+    }
+
+    .feedback {
+        width: 100%;
+        padding: 2rem 3rem;
+
+        h1 {
+            font-size: 2rem;
+        }
+
+        &__items {
+            gap: 2rem;
+        }
+
+        &__item {
+            &-content {
+                width: 10rem;
+                font-size: .75rem;
+
+            }
+
+            span {
+                p {
+                    font-size: 0.75rem;
+                }
+            }
+
+            &-stars {
+                gap: .2rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 800px) {
+    .banner {
+        &__title {
+            font-size: 3rem;
+            margin: 2rem 0;
+        }
+
+        &__content {
+            &-left {
+
+                h2 {
+                    font-size: 1.5rem;
+                    width: 20rem;
+                }
+            }
+
+            img {
+                width: 12.5rem;
+            }
+        }
+    }
+
+    .info {
+        padding: 2rem 0;
+
+        &__blocks {
+            gap: 2rem;
+        }
+
+        &__block {
+            width: 12rem;
+
+            h2 {
+                font-size: 1rem;
+            }
+
+            p {
+                font-size: 0.75rem;
+            }
+        }
+    }
+
+    .content {
+        padding: 4.5rem 6.563rem;
+        padding-bottom: 5.313rem;
+
+        &__gallery {
+
+            &-item {
+
+                width: 20rem;
+
+                img {
+                    width: 80%;
+                }
+
+                span {
+                    bottom: 3rem;
+                    font-size: 3rem;
+                }
+            }
+        }
+
+        &__bottom {
+            margin-top: 3.5rem;
+
+            &-left {
+                h1 {
+                    font-size: 2.5rem;
+                    margin-bottom: 2rem;
+                }
+
+                p {
+                    font-size: 1rem;
+                }
+            }
+
+            &-right {
+
+                gap: 1rem;
+
+                li {
+
+                    h1 {
+                        font-size: 1.25rem;
+                    }
+
+                    font-size: .75rem;
+                }
+            }
+        }
+    }
+
+    .footer {
+        &__top {
+            gap: 2rem;
+
+            &-block {
+
+                h1 {
+                    font-size: 2rem;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 440px) {
+    .header {
+        position: relative;
+
+        &__burger {
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            display: block;
+            width: 2rem;
+
+            &-active {
+                transform: rotate(90deg);
+            }
+        }
+        &__right {
+            padding: 1.75rem;
+            padding-bottom: 0;
+            display: none;
+            nav {
+                margin-bottom: 1rem;
+            }
+        }
+    }
+
+    .banner {
+        &__title {
+            font-size: 3rem;
+            margin: 1.125rem 0;
+        }
+
+        &__content {
+
+            gap: 10px;
+
+            &-left {
+
+                h2 {
+                    font-size: 1.75rem;
+                    width: 15.625rem;
+                }
+            }
+
+            img {
+                width: 10rem;
+            }
+        }
+        button {
+            font-size: 0.438rem;
+            padding: 0.438rem;
+            width: 6.438rem;
+        }
+    }
+
+    .info {
+        padding: 2rem 0;
+
+        &__blocks {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 2rem;
+        }
+
+        &__block {
+            width: 12rem;
+
+            h2 {
+                font-size: 0.688rem;
+            }
+
+            p {
+                font-size: 0.688rem;
+            }
+            padding: 2rem 0;
+            border-bottom: 1px solid #000;
+
+            :last-child {
+                border-bottom: none;
+            }
+       }
+        button {
+            font-size: 0.438rem;
+            padding: 0.438rem;
+            width: 6.438rem;
+        }
+    }
+
+    .content {
+        padding: 0;
+
+        &__gallery {
+
+            height: 23.438rem;
+
+            &-item {
+                position: relative;
+
+                width: 13.438rem;
+
+                img {
+                    width: 13.438rem;
+                }
+
+                .aa {
+                    position: absolute;
+                    top: -7.5rem;
+                }
+
+                .a {
+                    font-size: 1.5rem;
+                }
+
+                .v {
+                    top: 10.5rem;
+                }
+
+                .bb {
+                    position: absolute;
+                    top: -18rem !important;
+                }
+
+                span {
+                    bottom: 3rem;
+                    font-size: 3rem;
+                }
+            }
+        }
+
+        &__bottom {
+            margin-top: 3rem;
+
+            &-left {
+                h1 {
+                    font-size: 3rem;
+                }
+
+                p {
+                    font-size: 1rem;
+                }
+            }
+
+            &-right {
+                li {
+
+                    h1 {
+                        font-size: 1.5rem;
+                    }
+
+                    font-size: 0.6rem;
+                }
+            }
+        }
+    }
+
+    
+    .feedback {
+        padding: 2rem;
+
+        h1 {
+            font-size: 1rem;
+        }
+
+        &__items {
+            gap: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        &__item {
+            &-content {
+                width: 15rem;
+                font-size: .75rem;
+            }
+
+            span {
+                p {
+                    font-size: 0.75rem;
+                }
+            }
+
+            &-stars {
+                gap: .2rem;
+            }
+        }
+    }
+
+    .footer {
+        padding: 1.125rem;
+        &__top {
+            gap: 0.5rem;
+            justify-content: space-between;
+
+            &-block {
+
+                h2 {
+                    font-size: 0.375rem;
+                }
+
+                h1 {
+                    font-size: 1.125rem;
+                }
+
+                &-navs {
+                    font-size: 0.375rem;
+                    gap: 1rem;
+
+                    img {
+                        width: 1rem;
+                    }
+                }
+            }
+        }
+    }
+}

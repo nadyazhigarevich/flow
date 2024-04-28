@@ -1,0 +1,102 @@
+.content {
+
+    padding: 5.188rem 8.563rem;
+    padding-bottom: 6.313rem;
+
+    &__gallery {
+        display: flex;
+        justify-content: space-between;
+
+        &-left {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            img {
+                z-index: 1;
+                width: 28.875rem;
+                height: 28.063rem;
+            }
+        }
+
+        &-item {
+            text-align: left;
+            position: relative;
+            width: 34.25rem;
+            ;
+
+            span {
+                position: absolute;
+                z-index: 2;
+                color: #fff;
+                bottom: .5rem;
+                left: 5.625rem;
+                font-size: 5rem;
+                text-transform: uppercase;
+                font-weight: lighter;
+            }
+        }
+
+        .a {
+            left: 1rem;
+        }
+
+        img {
+            z-index: 1;
+        }
+    }
+
+    &__bottom {
+        margin-top: 7.188rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        &-left {
+            h1 {
+                font-size: 6rem;
+                font-weight: 900;
+                text-transform: uppercase;
+                margin-bottom: 0.375rem;
+            }
+
+            p {
+                text-align: start;
+                font-weight: Lighter;
+                font-size: 1, 5rem;
+                width: 13rem;
+
+                span {
+                    text-transform: uppercase;
+                    font-weight: bold;
+                }
+            }
+        }
+
+        &-right {
+            display: flex;
+            gap: 2.625rem;
+
+            li {
+                list-style: none;
+                display: flex;
+                flex-direction: column;
+                gap: 3rem;
+                font-size: 1.5rem;
+
+                h1 {
+                    font-size: 3rem;
+                    font-weight: Bold;
+                    font-size: 3rem;
+                    font-style: italic;
+                }
+
+                a {
+                    color: #000;
+                    font-style: italic;
+                    font-weight: Bold;
+                }
+            }
+        }
+    }
+}
